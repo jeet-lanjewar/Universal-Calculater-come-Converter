@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Converter</title>
+    <script src="converter.js"></script>
+</head>
+<body>
+    <button id="back_button" class="btn btn-primary" onclick="back()">Back</button>
+<center>
+	<h1 class="header">	
+     Converter<sup>
+		</sup>
+        <br><br>
+
+        <p>
+            <label>Meters</label>
+            <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter(this.value)">  Feet: <span id="outputFeet"></span>
+          </p>
+
+          <p>
+            <label>centimeter</label>
+            <input id="inputcentimeter" type="number" placeholder="centimeter" oninput="LengthConverterc(this.value)">  meter: <span id="outputmeter"></span>
+          </p>
+
+          <p>
+            <label>Liter</label>
+            <input id="inputliter" type="number" placeholder="Liter" oninput="LengthConvertere(this.value)">  Mililiter: <span id="outputmililiter"></span>
+          </p>
+
+          <label>KG</label>
+            <input id="inputkg" type="number" placeholder="Kilogram" oninput="LengthConverterq(this.value)">  grams: <span id="outputgram"></span>
+          </p>
+
+          <label>centimeter</label>
+            <input id="inputcentimeter" type="number" placeholder="centimeter" oninput="LengthConverterp(this.value)">  Inches: <span id="outputinch"></span>
+          </p>
+</center>
+
+</body>
+</html>

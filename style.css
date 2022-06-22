@@ -1,0 +1,17 @@
+button{
+    border-radius: 20px;
+    font-size: 40px;
+    background: #978fa0;
+    width: 222px;
+    height: 90px;
+    margin: 6px;
+}
+
+.button{
+    border-radius: 20px;
+    font-size: 40px;
+    background: #700ae4;
+    width: 102px;
+    height: 90px;
+    margin: 6px;
+}
