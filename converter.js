@@ -3,7 +3,7 @@ function LengthConverter(valNum) {
 }
 
 function LengthConverterc(valNum){
-  document.getElementById("outputmeter").innerHTML=valNum*100;
+  document.getElementById("outputcentimeter").innerHTML=valNum*100;
 }
 
 function LengthConvertere(valNum){
@@ -15,7 +15,7 @@ function LengthConverterq(valNum){
 }
 
 function LengthConverterp(valNum){
-  document.getElementById("outputinch").innerHTML=valNum*2.54;
+  document.getElementById("outputcm").innerHTML=valNum*2.54;
 }
 
 function back(){
